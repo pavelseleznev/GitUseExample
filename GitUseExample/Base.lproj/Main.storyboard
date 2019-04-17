@@ -25,10 +25,18 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sye-W4-yah"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My new label in a new branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUp-Gd-Ats">
+                                <rect key="frame" x="48" y="138" width="225" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HAr-Di-mjI" secondAttribute="bottom" constant="269" id="9g4-XH-mwq"/>
+                            <constraint firstItem="AUp-Gd-Ats" firstAttribute="centerX" secondItem="HAr-Di-mjI" secondAttribute="centerX" id="Xm0-Ia-KDE"/>
+                            <constraint firstItem="AUp-Gd-Ats" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="118" id="Y2D-aC-9ck"/>
                             <constraint firstItem="HAr-Di-mjI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="ZNH-5I-RQz"/>
                             <constraint firstItem="HAr-Di-mjI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="249" id="qRJ-kG-RN0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HAr-Di-mjI" secondAttribute="trailing" constant="104" id="wKL-BD-eA2"/>
